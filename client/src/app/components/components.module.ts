@@ -14,7 +14,12 @@ import { ComponentsComponent } from './components.component';
 import { NotificationComponent } from './notification/notification.component';
 import { NgbdModalComponent } from './modal/modal.component';
 import { NgbdModalContent } from './modal/modal.component';
+<<<<<<< .mine
+import { IntroComponent } from './intro/intro.component';
+=======
 import { WelcomeComponent } from './welcome/welcome.component';
+>>>>>>> .theirs
+
 
 @NgModule({
     imports: [
@@ -33,10 +38,15 @@ import { WelcomeComponent } from './welcome/welcome.component';
         NucleoiconsComponent,
         NotificationComponent,
         NgbdModalComponent,
+<<<<<<< .mine
+        NgbdModalContent,
+        IntroComponent
+=======
         NgbdModalContent,
         WelcomeComponent
+>>>>>>> .theirs
     ],
     entryComponents: [NgbdModalContent],
-    exports:[ ComponentsComponent ]
+    exports: [ ComponentsComponent ]
 })
 export class ComponentsModule { }
