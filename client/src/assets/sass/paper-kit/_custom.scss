@@ -1,8 +1,16 @@
+$pink_darkstryder : #15011f;
+
 .presentation-title{
   font-size: 5em;
 }
+.navbar{
+  background: $pink_darkstryder;
+}
 .btn-danger{
   background-color: red;
+}
+.section-dark{
+  background-color: $pink_darkstryder;
 }
 
 .body_welcome {

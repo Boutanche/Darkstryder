@@ -15,6 +15,7 @@ import { NotificationComponent } from './notification/notification.component';
 import { NgbdModalComponent } from './modal/modal.component';
 import { NgbdModalContent } from './modal/modal.component';
 import { IntroComponent } from './intro/intro.component';
+import { ProtagonistsComponent } from './protagonists/protagonists.component';
 
 
 @NgModule({
@@ -35,7 +36,8 @@ import { IntroComponent } from './intro/intro.component';
         NotificationComponent,
         NgbdModalComponent,
         NgbdModalContent,
-        IntroComponent
+        IntroComponent,
+        ProtagonistsComponent
     ],
     entryComponents: [NgbdModalContent],
     exports: [ ComponentsComponent ]
